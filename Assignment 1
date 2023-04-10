@@ -1,0 +1,38 @@
+Q.1 What is internet? Explain in your own words.
+Ans-The internet is a global network of connected computers and devices.
+    It allows people all around the world to communicate with each other instantly.
+    You can access the internet through a device like a smartphone, tablet, or computer.
+    The internet is home to a vast amount of information, like websites, videos, images, and more.
+    You can use the internet to learn new things, watch movies, connect with friends, and much more.
+    The internet is constantly changing and evolving as new technologies and innovations emerge.
+		
+Q.2 What is web browser? Explain in your own words.
+Ans-A web browser is a software application that allows you to access and view websites on the internet.
+    Some popular web browsers include Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge.
+    The browser then renders and displays the website on your device, including text, images, videos, and other content.
+    Web browsers can also store information about your browsing history, cookies, and other data to enhance your browsing experience.
+    Browsers allow you to navigate between different websites by clicking links or using bookmarks.
+    Browsers may also have additional features like extensions or add-ons that can provide additional functionality or customization.
+    Web browsers are constantly being updated and improved with new features, bug fixes, and security enhancements.
+    Overall, web browsers are essential tools that allow us to access and explore the vast network of websites on the internet.
+		
+Q.3 What is browser engine? Explain in your own words.
+Ans- A browser engine, also known as a rendering engine, is the software component that interprets HTML, CSS, and JavaScript code to display web pages in a web browser.
+     The browser engine receives requests from the browser for website content and processes it to display it in the browser window.
+     The engine uses HTML (Hypertext Markup Language) to create the structure of the web page, CSS (Cascading Style Sheets) to define the visual appearance of the page, and JavaScript to add interactivity to the page.
+     The browser engine parses the HTML code, applies the CSS styling, and executes the JavaScript code to create the final web page that is displayed in the browser.
+     The browser engine also handles user interactions like scrolling and zooming, and manages the rendering of images and multimedia content.
+     The browser engine is a critical component of the web browsing experience, and is responsible for rendering websites accurately and efficiently in the browser.
+     Browser engines are constantly being updated and improved to support new web technologies and improve performance and compatibility with different devices.
+     Overall, browser engines are an essential part of the web browsing ecosystem, powering the display of web pages in the browser and enabling users to access and interact with the vast array of content on the internet.
+
+Q.4 What is a dynamic site? Explain in your own words.
+Ans-  A dynamic site is a website that can change or update its content based on user input or other dynamic factors.
+			Dynamic sites can display content that is customized to individual users based on their preferences or browsing history.
+			Dynamic sites use server-side programming languages like PHP, Python, or Ruby on Rails to generate HTML, CSS, and JavaScript code on-the-fly.
+			Dynamic sites often use a database to store and retrieve information, such as user account information or product listings.
+			Dynamic sites can include features like user authentication, e-commerce functionality, and interactive forms that allow users to input data.
+			Dynamic sites can be updated more easily and frequently than static sites, as changes to the underlying data or code can be reflected immediately on the website.
+			Dynamic sites can be more complex and resource-intensive than static sites, as they require server-side processing and database management.
+			Dynamic sites often require web hosting services that support server-side scripting and database functionality.
+			Overall, dynamic sites offer a more interactive and personalized web browsing experience than static sites, and are well-suited to websites that require frequent updates or user-generated content.
