@@ -1,0 +1,32 @@
+Q.1 What is HTML language?
+Ans- HTML stands for Hypertext Markup Language. It is a standard markup language used to create and design web pages. HTML is used to structure content on the 
+web and allows developers to define the structure of a web page using various tags and attributes. HTML is the foundation of all websites and is used to display text,
+images, videos, and other multimedia content. It is a core technology for building websites and is used alongside CSS and JavaScript to create interactive and dynamic
+web pages.
+
+
+Q.2 What is CSS?
+Ans-CSS stands for Cascading Style Sheets. It is a style sheet language used to define the visual presentation of a web page, including its layout, colors, fonts,
+and other design elements. CSS allows developers to separate the presentation of a web page from its content, making it easier to manage and maintain the website. 
+With CSS, developers can control the visual style of a web page, create responsive designs that adapt to different screen sizes, and add animations and interactivity
+to web pages. CSS is a critical technology for web design and development and is used in conjunction with HTML and JavaScript to create engaging and dynamic websites.
+
+
+Q.3 Why did the javacript come into the picture? 
+Ans- JavaScript was created to add interactivity and dynamic functionality to web pages. Before JavaScript, web pages were mostly static and lacked the ability to 
+respond to user interactions. JavaScript allowed developers to add functionality such as form validation, animations, and dynamic content updates without the need for
+server-side processing. JavaScript has become one of the most popular programming languages in the world and is used for both frontend and backend web development, 
+as well as for developing mobile and desktop applications. It has significantly enhanced the user experience of the web and has made it possible to create interactive
+and dynamic web pages that can respond to user interactions in real-time.
+
+Q.4 History of Javascript and gcmascript.EXplain in your world?
+Ans- JavaScript was created by Brendan Eich in 1995 while he was working at Netscape Communications Corporation. It was originally called Mocha, then changed to
+LiveScript before finally being named JavaScript. Its initial purpose was to add interactive features to web pages, such as form validation and dynamic content updates. 
+JavaScript quickly became popular and was adopted by other web browsers, becoming a standard technology for web development.
+    In 1996, a standards organization called the European Computer Manufacturers Association (ECMA) created a committee to standardize JavaScript. This led to the 
+ creation of ECMAScript, a standardized version of JavaScript that defines its syntax, semantics, and core features. The first version of ECMAScript was released
+ in 1997, and it has since been updated several times, with the most recent version being ECMAScript 2021.
+
+ ECMAScript is now the official name for the standard that JavaScript implements. It is maintained by the ECMA International organization and is designed to ensure that
+ JavaScript remains a relevant and useful language for web development. ECMAScript is widely used today in frontend and backend web development, as well as for developing
+ mobile and desktop applications. It continues to evolve to meet the needs of developers and to support new features and technologies in web development.
