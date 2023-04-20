@@ -1,0 +1,48 @@
+Q.1 What are inline and block elements in html and difference between them? Name a few inline element and block elements? 
+Ans-HTML elements can be categorized as inline or block elements based on how they are displayed on a webpage. Block elements take up the full width of the page
+and start on a new line, while inline elements only take up the necessary space and do not start on a new line. 
+Common block elements include '<div>', '<p>', '<h1>-<h6>', '<ul>', and '<li>'. 
+Common inline elements include '<a>', '<span>', '<em>', and '<strong>'.
+
+Q.2 How to work with image in html and Explaine in details </img> tag important attributes? 
+Ans- To work with images in HTML, you can use the <img> tag. Here is how to use the <img> tag and its important attributes:
+src: This attribute specifies the URL of the image. It is a required attribute and should contain the image file's path and name.
+alt: This attribute specifies the alternative text that should be displayed if the image cannot be loaded. It is also useful for accessibility purposes.
+width and height: These attributes specify the width and height of the image in pixels. They are optional but recommended to maintain the aspect ratio of the image.
+title: This attribute specifies the text that will appear as a tooltip when the user hovers over the image.
+
+Example of how to use the '<img>' tag:
+    <img src="path/to/image.jpg" alt="Description of image" width="500" height="300" title="Image title">
+
+
+         The '<img>' tag is used to insert images into an HTML page, and its important attributes include src, alt, width, height, and title.
+         
+Q.3 How to create the lists in HTML?
+Ans-You can create lists in HTML using the  '<ul>' and '<ol>' tags for unordered and ordered lists, respectively. 
+Here is how to create a basic list using each tag:
+
+1.Unordered list: To create an unordered list, use the '<ul>' tag and wrap each list item with the '<li>' tag. For example:
+  <ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+2.Ordered list: To create an ordered list, use the '<ol>' tag and wrap each list item with the '<li>' tag. For example:
+  <ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+Q.4 How to interlink web pages and navigate people to other websites?
+Ans-To interlink web pages within your own website, you can use the '<a>' tag with the href attribute. Here is an example of how to link to another 
+page on your own website:
+        <a href="page2.html">Link to Page 2</a>
+        
+    To link to an external website, simply replace the URL in the href attribute with the URL of the external website. Here is an example:
+    
+    <a href="https://www.example.com">Link to Example Website</a>
+    
+ In short to interlink web pages, use the '<a>'(Anchor tag) tag with the href attribute, and for external links, replace the href attribute with the URL of the external website.
+
