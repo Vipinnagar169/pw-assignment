@@ -1,0 +1,20 @@
+Q.1 Why do we start laarning a programming language with “Hello World! 
+Ans-Starting with "Hello, World!" is a simple and easy way to introduce the fundamental concepts of programming and become familiar with the basic syntax and
+structure of a programming language. It is a common tradition because it provides a sense of accomplishment, motivation, and confidence in learners as they begin to
+write their first lines of code. Additionally, "Hello, World!" can serve as a foundation for more complex programs in the future.
+
+Q.2 How is the use of comments and how do you write comments in HTML?
+Ans- Comments in HTML are used to include notes or explanations for the code that will not be visible to the user. To write a comment in HTML, you use the syntax
+'<!-- This is a comment -->', where anything between the '<!--' and '-->' tags will be treated as a comment. Using comments in HTML is helpful for providing context or
+temporarily removing a section of code without deleting it entirely.
+
+Q.3 What are elements tags and attributes and the difference between them. 
+Ans-HTML elements are the building blocks of a webpage, tags define the beginning and end of an element, and attributes provide additional information about an element.
+An element is defined using a tag, which consists of the opening tag, content, and closing tag. Attributes are used to provide additional information about an element
+and are placed within the opening tag.
+
+
+Q.4 Briefly explain what HTML entities are?
+Ans- HTML entities are special codes that are used to represent characters and symbols that have a special meaning in HTML, such as '<', '>', or '©'. They are used to display
+these characters on a webpage without the browser interpreting them as HTML code. They are written using an ampersand ('&'), followed by the entity name or number, and 
+ending with a semicolon (';').
