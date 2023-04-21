@@ -1,0 +1,66 @@
+Q.1 Why CSS Selectors are used in HTML?
+Ans- CSS selectors are used in HTML to target specific HTML elements and apply styles to them. This helps to control the presentation of web pages and create a 
+consistent design across all pages of a website. CSS selectors make it easier to update the design of a website and are essential for creating attractive and 
+professional-looking web pages.
+
+
+
+Q.2 What are different types of Selectors in CSS?
+Ans- Element selector: Targets all instances of a specific HTML element, such as <h1> or <p>.
+Class selector: Targets all instances of an HTML element with a specific class attribute, such as .nav or .button.
+
+ID selector: Targets a specific HTML element with a unique ID attribute, such as #header or #footer.
+
+Universal selector: Targets all elements on a page, using the * character.
+
+Attribute selector: Targets all instances of an HTML element with a specific attribute, such as [type="text"].
+
+Pseudo-class selector: Targets an element in a specific state, such as :hover or :focus.
+
+Pseudo-element selector: Targets a specific part of an element, such as ::before or ::after.
+
+
+
+
+Q.3 How do you include external fonts and apply them?
+Ans-To include external fonts and apply them to an HTML page using CSS, follow these steps:
+Find a font from a reputable online source, such as Google Fonts or Font Squirrel.
+
+Download the font files and add them to your website's directory.
+
+In the HTML file, add a link to the font files in the head section using the "link" tag.
+
+In the CSS file, use the "@font-face" rule to define the font family, source, and format.
+
+Apply the font to the desired HTML element using the "font-family" property.
+
+For example:
+
+HTML:<head>
+  <link href="path/to/font/font.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+
+CSS:
+     @font-face {
+  font-family: "Open Sans";
+  src: url("path/to/font/OpenSans-Regular.ttf") format("truetype");
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+  This example links to an external CSS file containing the "@font-face" rule that defines the font family and source. The "h1" element is then targeted in the CSS
+  file and the "font-family" property is used to apply the "Open Sans" font to it.
+
+
+
+
+
+
+        
+
+        
