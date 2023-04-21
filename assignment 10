@@ -1,0 +1,24 @@
+Q.1 What is css and why use it?
+CSS (Cascading Style Sheets) is a language used to describe the presentation of web pages written in HTML. It separates the content of a web page from its presentation,
+making it easier to style and design web pages. CSS provides a number of benefits, including improved consistency, efficiency, accessibility, and search engine 
+optimization (SEO). It is an essential tool for creating attractive and professional-looking web pages.
+
+
+Q.2  What are the different ways to bring CSS into an HTML file?
+Ans- There are three main ways to bring CSS into an HTML file:
+
+Inline CSS: This involves adding CSS styles directly to HTML elements using the "style" attribute. Inline CSS styles affect only the specific element they are 
+applied to.
+
+Internal CSS: This involves adding CSS styles to the head section of an HTML file using the "style" tag. Internal CSS styles affect all elements on the page and are 
+defined within the same HTML file.
+
+External CSS: This involves creating a separate CSS file with all the styles and linking it to the HTML file using the "link" tag in the head section. External CSS
+styles affect all elements on the page and can be reused across multiple HTML files, making it an efficient way to maintain consistency in web design.
+
+
+
+Q.3 What do you mean by specificity in CSS?
+Ans- Specificity in CSS determines which CSS rule takes precedence when multiple rules target the same HTML element. It is calculated based on the number of ID, 
+class, and tag selectors used in the CSS selector. The more specific the selector, the higher its priority in the cascade. Understanding specificity is important for
+writing efficient and effective CSS.
