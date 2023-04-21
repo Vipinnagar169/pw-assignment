@@ -1,0 +1,85 @@
+Q.1 Explain the table and its properties? 
+Ans- A table is a structured collection of data organized in rows and columns. Tables are commonly used to store and organize large amounts of information, 
+and they can be found in a variety of applications, including databases, spreadsheets, and web pages.
+
+Tables have several properties that make them useful for organizing data, including:
+
+Rows: Tables are organized into rows, with each row containing a set of data values. Each row typically represents a single record in the table.
+
+Columns: Tables are also organized into columns, with each column representing a specific data field. Columns typically have a header that describes the 
+type of data contained within them.
+
+Cells: The intersection of a row and column is called a cell, and it contains a single data value.
+
+Primary key: A primary key is a unique identifier for each row in the table. It is used to ensure that each row is unique and can be easily accessed.
+
+Relationships: Tables can have relationships with other tables, which are used to organize related data and ensure consistency.
+
+Indexing: Tables can be indexed to improve performance when searching or sorting data.
+
+
+
+Q.2 Explain all media Elements and how they work? 
+Ans- Media elements are components used to add multimedia content, such as audio, video, and images, to web pages and other digital media. Here is a brief overview of
+each of the major types of media elements:
+
+Images: Images are static graphics that can be added to web pages to provide visual interest or to convey information. They are typically saved in formats such as JPEG,
+PNG, or GIF, and can be resized or cropped using HTML or CSS.
+
+Audio: Audio elements allow developers to embed audio files, such as music or sound effects, directly into web pages. They support a variety of file formats, including 
+MP3 and WAV.
+
+Video: Video elements are used to embed video content into web pages. They support a variety of file formats, including MP4 and WebM, and can be customized with 
+controls such as play, pause, and volume.
+
+Animation: Animations are used to add movement and interactivity to web pages. They can be created using technologies such as CSS or JavaScript, and can include 
+effects such as transitions and hover effects.
+
+SVG: SVG, or Scalable Vector Graphics, are graphics that can be scaled to any size without losing quality. They are created using XML markup and can be used for things 
+like logos, icons, and other graphical elements.
+
+
+
+Q.3 What is get and post in form?
+Ans- Get and Post are two methods used to send data from a web form to a server.
+
+The main difference between the two is that Get method sends data through the URL of the page, while Post method sends data in the request body.
+
+Get method is typically used for submitting forms with a small amount of data, such as search queries or filtering options. Post method is used for submitting 
+larger amounts of data, such as form submissions or file uploads.
+
+In Get method, the data is visible in the URL, making it less secure and limited in size, while in Post method, the data is hidden in the request body, making it more
+secure and larger in size.
+
+Overall, both Get and Post methods have their own advantages and are used depending on the type and amount of data being sent.
+
+
+
+
+
+Q.4 List all the Inpute types  we have in Forms?
+Ans-There are several input types that can be used in forms:
+
+Text: Used for single-line text input.
+
+Password: Used for single-line text input where the entered text is hidden, usually for password input.
+
+Email: Used for email address input and includes validation for the correct email format.
+
+Number: Used for numeric input.
+
+Date: Used for date input, with a calendar picker to select the date.
+
+Time: Used for time input, with a clock picker to select the time.
+
+Checkbox: Used for a binary yes/no choice.
+
+Radio: Used for selecting one option from multiple options.
+
+Select: Used for selecting one or more options from a dropdown list.
+
+File: Used for uploading files.
+
+Button: Used for triggering an action or event, such as submitting a form.
+
+Overall, these input types provide developers with a range of tools for creating forms that are easy to use and collect accurate data.
