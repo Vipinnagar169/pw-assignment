@@ -1,0 +1,33 @@
+Q.1 Why is it called a pseudo-class?
+Ans-A pseudo-class in CSS is called so because it represents a specific state or condition of an element. It is a way to select and style elements based on their current or dynamic state, such as when they are hovered over, focused, or in a specific position within a parent element.
+
+The term "pseudo" means "false" or "not genuine." In the context of CSS, a pseudo-class is not a real class or identifier assigned to an element but rather a special keyword that allows you to target and style elements based on certain conditions or states.
+
+Pseudo-classes are denoted by a colon (":") followed by the keyword representing the state or condition. For example, :hover, :focus, and :first-child are all examples of pseudo-classes.
+
+Q.2 What are garadient in css?
+Ans-gradients are a way to create smooth transitions between two or more colors. They allow you to create visually appealing backgrounds or apply gradient effects to elements on a webpage. Gradients can be created using the linear-gradient() or radial-gradient() functions.
+
+Q.3 What are the differnt type of transition in css?
+Ans- transitions are used to create smooth animations when a CSS property changes its value. They allow you to define the timing, duration, and easing function for the transition between the old and new property values. CSS provides several types of transitions that you can use to control the animation effect. Here are the different types of transitions in CSS:
+
+Transition of Individual Properties:
+
+This is the most common type of transition, where you specify the CSS properties that you want to animate.
+Example: transition: width 1s ease-in-out; (transitioning the width property over a duration of 1 second with an ease-in-out timing function).
+Transition of All Properties:
+
+Instead of specifying individual properties, you can use the all keyword to transition all animatable properties.
+Example: transition: all 0.5s ease; (transitioning all properties over a duration of 0.5 seconds with an ease timing function).
+Transition Delay:
+
+The transition-delay property allows you to specify a delay before the transition starts.
+Example: transition: background-color 1s ease-in-out 0.5s; (transitioning the background-color property over a duration of 1 second with an ease-in-out timing function, starting after a delay of 0.5 seconds).
+Multiple Transitions:
+
+You can apply multiple transitions to different properties by separating them with commas.
+Example: transition: background-color 0.5s ease, width 1s ease-in-out; (transitioning the background-color property over 0.5 seconds with an ease timing function and the width property over 1 second with an ease-in-out timing function).
+Custom Timing Functions:
+
+In addition to the predefined timing functions (e.g., ease, ease-in, ease-out, ease-in-out), you can create custom timing functions using the cubic-bezier() function.
+Example: transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); (using a custom timing function for the transition).
