@@ -1,0 +1,71 @@
+Q.1 What is grid?
+Ans-A grid refers to a layout system that allows you to organize and align elements on a webpage in a structured and responsive manner. It provides a framework for dividing the available space into columns, rows, and cells, creating a grid-like structure for positioning and arranging content.
+
+CSS Grid Layout (often referred to as just "CSS Grid") is a powerful two-dimensional grid system introduced in CSS3. It enables you to create complex and flexible layouts with precise control over the placement and sizing of elements. With CSS Grid, you can define both the overall grid structure and the positioning of individual elements within the grid.
+
+Q.2 What is the difference between flex and grid?
+Ans-Flexbox and CSS Grid are two powerful layout systems in CSS that offer different approaches to creating flexible and responsive layouts. Here are the key differences between Flexbox and CSS Grid:
+
+Flexbox:
+Flexbox (Flexible Box Layout) is designed for one-dimensional layouts, either as rows or columns.
+It provides a flexible way to distribute space among items in a container and control their alignment.
+Flexbox is ideal for building dynamic layouts with a single row or column of items.
+It excels at handling content that needs to be vertically or horizontally aligned, centered, or spaced evenly.
+It allows elements to grow and shrink based on available space, using properties like flex-grow, flex-shrink, and flex-basis.
+It simplifies the process of creating responsive designs for smaller screens and mobile devices.
+Flexbox has a simpler and more intuitive syntax compared to CSS Grid.
+
+CSS Grid:
+CSS Grid Layout is designed for two-dimensional layouts, allowing you to create both rows and columns simultaneously.
+It provides a grid-based structure for precise control over the placement and alignment of items in a grid container.
+CSS Grid is ideal for creating complex and grid-based layouts, such as multi-column designs or card-like structures.
+It allows you to define the grid structure explicitly, specifying the number of rows and columns, their sizes, and the placement of items within the grid.
+It supports overlapping elements, creating layered designs or complex grid patterns.
+CSS Grid provides more advanced control over grid tracks, such as defining them using flexible units (fr) or auto-sizing.
+It offers powerful features for responsive layouts, including the ability to change the grid layout dynamically using media queries.
+CSS Grid has a more robust and comprehensive feature set compared to Flexbox.
+
+Q.3 How can you define rows and columns for your grid?
+Ans- you can define rows and columns for your grid using the grid-template-rows and grid-template-columns properties. These properties allow you to specify the size and structure of the grid tracks (rows and columns) within a grid container. Here's how you can define rows and columns in CSS Grid:
+
+Defining Rows:
+To define rows in your grid, use the grid-template-rows property.
+You can specify the height of each row individually, or you can use the repeat() function to create a pattern of repeating row sizes.
+Example:.grid-container {
+  display: grid;
+  grid-template-rows: 100px 200px 150px; /* Define three rows with specific heights */
+}
+In this example, the .grid-container class is set to a grid container, and the grid-template-rows property is used to define three rows with heights of 100 pixels, 200 pixels, and 150 pixels, respectively.
+
+Defining Columns:
+To define columns in your grid, use the grid-template-columns property.
+You can specify the width of each column individually, or you can use the repeat() function to create a pattern of repeating column sizes.
+Example:.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Define three columns with a flexible width ratio */
+}
+In this example, the .grid-container class is set to a grid container, and the grid-template-columns property is used to define three columns with a flexible width ratio of 1:2:1 using the fr (fractional unit) value.
+
+Q.4 List any two properties of the grid item and grid container?
+Ans-Grid Container Properties:
+1.display: Specifies the type of container to create. Use display: grid; to create a block-level grid container or display: inline-grid; to create an inline-level grid container.
+Example:.grid-container {
+  display: grid;
+}
+2.grid-template-rows and grid-template-columns: Defines the structure and sizing of rows and columns within the grid container. You can specify the height of each row or the width of each column individually or use functions like repeat() to create patterns of repeating sizes.
+Example:.grid-container {
+  grid-template-rows: 100px 200px;
+  grid-template-columns: 1fr 2fr;
+}
+
+Grid Item Properties:
+1.grid-row and grid-column: Specifies the placement of the grid item within the grid by defining the starting and ending grid lines on which the item should be placed. This property can also be used in shorthand as grid-area to define both the row and column placement.
+Example:.grid-item {
+  grid-row: 1 / 3;
+  grid-column: 2 / 4;
+}
+2.justify-self and align-self: Controls the alignment of the grid item within its grid cell along the horizontal and vertical axes, respectively. These properties allow you to override the alignment set by the grid container.
+Example:.grid-item {
+  justify-self: center;
+  align-self: end;
+}
