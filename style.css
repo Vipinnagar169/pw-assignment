@@ -1,81 +1,53 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-  height: 100%;
-  width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(image/pexels-maxyne-barcel-10402282\ 1.png);
-  /* filter: brightness(0.5); */
-  background-size: cover;
-  background-attachment: fixed;
-  border-radius: 5%;
+nav{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    align-items: center;
+    padding: 3% 5%;
 }
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* line-height: 20px; */
-  padding: 0 60px 0 60px;
-  margin-top: 30px;
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-weight: 400;
 }
-.logo{
-  cursor: pointer;
+button{
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(127, 10, 236);
+    color: white;
+    border-radius: 5px;
 }
-ul{
-  display: flex;
-  align-items: center;
-  font-style: none;
-  gap: 64px;
-  color: #ffc233;
+.button-head{
+   margin-left: 500px;
 }
-ul li{
-  text-decoration: none;
-  list-style: none;
-}
-.button-small{
-  padding: 3px 40px;
-  font-weight: 700px;
-  background-color: #ff505f;
-  border: none;
-  color: white;
-  border-radius: 2%;
-  font-size: 15px;
-  line-height: 30px;
-  font-style: normal;
-  cursor: pointer;
-  font-family: "Red Rose";
-}
-.hero {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 117px;
-}
-.hero-heading{
-  font-size: 104px;
-  font-weight: 300;
-  color: #ffc233;
-}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 8% 14% 8%;
 
- .button-large{
-  padding: 12px 60px;
-  font-weight: 500px;
-  background-color: #ff505f;
-  font-family: "Red Rose";
-  border: none;
-  color: white;
-  border-radius: 2%;
-  font-size: 15px;
-  line-height: 40px;
-  font-style: normal;
-  cursor: pointer;
-  margin-top: 5%;
-} 
-.bottom{
-  position: absolute;
-  padding-bottom: 20px;
-  right: 4%;
 }
-
+.left-hero-section{
+    width: 40%;
+    font-weight: 100;
+    color: rgb(46, 46, 100);
+}
+.left-hero-section h1{
+    /* font-size: 30px; */
+    margin-top: 20px;
+    font-family: "Poppins";
+}
+.left-hero-section h1 span{
+    color:rgb(127, 10, 236);
+}
+.left-hero-section p{
+    margin: 8%  0;
+    font-size: 13px;
+}
