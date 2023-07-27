@@ -2,80 +2,167 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(0, 0, 7);
 }
-body{
-    height: 100%;
-    width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(image/bg.png);
-    background-position: cover;
-    background-attachment: fixed;
+img:hover{
+    cursor: pointer;
 }
-header{
+img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
+nav ul{
     display: flex;
-    align-items: center;
-    padding: 5px 10px ;
-    background-color: black;
-}
-.navbar ul{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
-    gap: 40px;
-    color: white;
-}
-.navbar ul li{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    font-size: 1px;
-    width: 100px;
-    padding: 3px 6px;
-}
-.navbar ul li button{
-    padding: 4px 18px;
-    width: fit-content;
-    gap: 50px;
-    background-color:rgba(198, 13, 245, 0.774);
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    color: white;
-    margin-left: 650px;
-}
-/* 
-.navbar ul .line{
-    height: 5%;
-    padding: 0 10px;
-} */
+    padding-right:1px;
+    padding-top: 2px;
+    padding-left: 80%;
+    gap: 15px;
+    margin-top: 9px;
 
-main{
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+nav ul li a:hover{
+
+    background-color:blue;
+    text-decoration: underline;
+    border-radius: 30%;
+}
+nav .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .center .left{
+    color: white;
+    padding-right: 10px;
+}
+nav .center .left p{
+    color:rgb(188, 207, 18);
+    font-size: 15px;
+    font-weight: 500;
+}
+main .main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 10%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
 }
-    
-    main h1{
-        font-size: 50px;
-        font-weight: bold;
-    }
-    main p{
-        font-size: 15px;
-    }
+main .main img{
+    height: 200px;
+    width: 200px;
+}
+main .main h4{ 
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: blue; 
+    font-size: 20px;
+  }
+  main .main .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+  }
 
-    main button{
-        padding: 6px 22px;
-        border: none;
-        font-size: 16px;
-        background-color: rgb(201, 9, 201);
-        border-radius: 5px;
-        margin-top: 3%;
-        color: white;
-        font-weight: 600;
-    }
+main .main p{
+    color: white;
     
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer h4{
+    color: white;
+    padding-top: 10px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+.footer ul li img{
+    height: 15px;
+    width: 15px;
+}
+@media screen and (max-width: 576px) {
+    nav ul{
+        display: none;
+    }
+    img[alt="menu"]{
+        display: block;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    img[alt="pc-image"]{
+        width: 60vw;
+    }
+    .intro-line-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .intro-line-2 h1{
+        font-size: 40px;
+    }
+    .intro-line-2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px; 
+    }
+    img[alt="waving-hand"]{
+        height: 45px;
+    }
+    img[alt="pc-image"]{
+        width: 30vw;
+    }
+    img[alt="image"]{
+        width: 20vw;
+    }
+    .main h4{
+        font-size: 35px;
+    }
+    footer div h4{
+        font-size: 35px;
+    }
+    /* .horizontal-divider-contact{
+        height: 10px;
+        width: 180px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+     */
+
+}
